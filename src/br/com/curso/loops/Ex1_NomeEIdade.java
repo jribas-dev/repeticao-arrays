@@ -25,7 +25,7 @@ public class Ex1_NomeEIdade {
             if (idade == 0) break;
         }
 
-        System.out.println("Continua aqui...");
+        System.out.println("Saiu do programa...");
 
     }
 
