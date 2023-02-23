@@ -14,7 +14,7 @@ public class Ex3_MaiorEMedia {
 
         int numero;
         int maior = 0;
-        int soma = 0;
+        double soma = 0;
 
         int count = 0;
         do {
@@ -25,11 +25,11 @@ public class Ex3_MaiorEMedia {
 
             if (numero > maior) maior = numero;
 
-            count = count + 1;
+            count++;
         } while(count < 5);
 
         System.out.println("Maior: " + maior);
-        System.out.println("Média: " + (soma/5));
+        System.out.println("Média: " + Double.valueOf(soma / 5.00));
 
     }
 }

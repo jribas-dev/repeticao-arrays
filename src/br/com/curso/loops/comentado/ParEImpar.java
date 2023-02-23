@@ -33,6 +33,7 @@ public class ParEImpar {
         // Faça o loop caso o valor do contador seja menor que a quantidade de números
 
         //imprimindo a quantidade de números pares digtados e números ímpares digitados
-        System.out.println("Quantidade números pares: " + quantPar + " / Quantidade números ímpares: " + quantImpar);
+        System.out.println("Quantidade números pares:   " + quantPar);
+        System.out.println("Quantidade números ímpares: " + quantImpar);
     }
 }

@@ -30,7 +30,7 @@ public class Ex4_ParEImpar {
             count++;
         } while(count < quantNumeros);
 
-        System.out.println("Quantidade Par: " + quantPares);
+        System.out.println("Quantidade Par:   " + quantPares);
         System.out.println("Quantidade Ímpar: " + quantImpares);
     }
 }
