@@ -10,12 +10,12 @@ public class Fatorial {
         @SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in); //Abertura da entrada de fluxo de dados através do teclado
 
-        System.out.println("Número: "); //Peça um número
+        System.out.println("Calcular fatorial de: "); //Peça um número
         int numero = scan.nextInt(); //Entrada de dados, neste caso de um int.
 
         int multiplicacao = 1; //variável para guardar o valor da multiplicação dos valores.
 
-        System.out.print(numero + "!="); //frase ilustrativo para indicar o fatorial
+        System.out.print(numero + "! = ("); //frase ilustrativo para indicar o fatorial
 
         //para: variável i = numero, até i maior que 0, diminuimos 1 ao valor de i a cada loop.
         for(int i = numero; i > 0; i--) {
@@ -26,7 +26,7 @@ public class Fatorial {
                 System.out.print(i + "."); //imprima o valor do i seguido de "."
             } else { //se não (se o i tiver o valor igual a 1)
                 //imprima o valor do i seguido do sinal "=" e o resultado da multiplicação
-                System.out.print(i + "=" + (multiplicacao));
+                System.out.print(i + ") => " + (multiplicacao));
             }
         }
     }
