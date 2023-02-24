@@ -32,7 +32,7 @@ for (int i = 0; i < M.length; i++) {
 }
 ```
 
-#### Do { *[bloco]* } While ( *[condição]* )
+#### Do { *bloco* } While ( *condição* )
 
 ```
 int[] numeros = new int[20];
@@ -42,7 +42,7 @@ do {
 } while (count < numeros.length);
 ```
 
-#### While ( *[condição]* ) { *[bloco]* }
+#### While ( *condição* ) { *bloco* }
 
 ```
 int[] numeros = new int[20];
