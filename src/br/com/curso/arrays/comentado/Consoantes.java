@@ -22,10 +22,10 @@ public class Consoantes {
 
             //se a letra informada não seja igual a a, e, i, o ou u
             if (!(letra.equalsIgnoreCase("a") |
-                    letra.equalsIgnoreCase("e") |
-                    letra.equalsIgnoreCase("i") |
-                    letra.equalsIgnoreCase("o") |
-                    letra.equalsIgnoreCase("u"))) {
+                  letra.equalsIgnoreCase("e") |
+                  letra.equalsIgnoreCase("i") |
+                  letra.equalsIgnoreCase("o") |
+                  letra.equalsIgnoreCase("u"))) {
                 //atribua a letra ao elemento do vetor na posição indicada pelo contador, caso seja consoante.
                 consoantes[count] = letra;
                 quantidadeDeConsoantes++;
@@ -38,6 +38,6 @@ public class Consoantes {
             if (consoante != null) //se o valor da consoante for diferente de null
                 System.out.print(consoante + " "); //imprima a consoante
         }
-        System.out.println("Quantidade de consoantes: " + quantidadeDeConsoantes);
+        System.out.println("\nQuantidade de consoantes: " + quantidadeDeConsoantes);
     }
 }
