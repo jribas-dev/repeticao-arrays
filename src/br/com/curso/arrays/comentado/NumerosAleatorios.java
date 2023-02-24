@@ -2,14 +2,14 @@ package br.com.curso.arrays.comentado;
 
 import java.util.Random;
 /*
-Faça um Programa que leia 20 números inteiros (entre 0 e 100) armazene-os num vetor.
+Faça um Programa que leia 10 números inteiros (entre 0 e 100) armazene-os num vetor.
 Ao final mostre os números e seus sucessores.
 */
 public class NumerosAleatorios {
     public static void main(String[] args) {
         Random random = new Random(); //classe para gerar números aleatórios
 
-        int[] numeros = new int[20]; //array com 20 posições
+        int[] numeros = new int[10]; //array com 20 posições
 
         //para: variável i = numero, até i menor que o tamanho do array, acrescentamos 1 ao valor de i a cada loop.
         for (int i = 0; i < numeros.length; i++) {
